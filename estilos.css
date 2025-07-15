@@ -53,8 +53,10 @@ body {
   transition: background-color 0.2s ease;
 }
 
-#reset-btn:hover {
-  background-color: #e45a52;
+#reset-btn {
+  /* ...otros estilos... */
+  background-color: rgb(255, 0, 128); /* O puedes usar un código como #d900c7 */
+  /* ...otros estilos... */
 }
 
 .malla-grid {
