@@ -21,7 +21,7 @@ resetButton.addEventListener('click', () => {
   }
 });
 
-// Función para guardar el progreso en el navegador
+// Función para guardar el progreso en el navegadort
 function guardarProgreso() {
   localStorage.setItem('ramosAprobadosUNAB', JSON.stringify([...aprobadas]));
 }
@@ -120,4 +120,5 @@ function crearChispas(x, y) {
       chispa.remove();
     }, 600); // 600 milisegundos, igual que la duración de la animación
   }
+
 }
